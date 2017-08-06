@@ -88,6 +88,7 @@ class CalculatorVC: UIViewController {
     func operationPressed(operation: Operation){
         //playSound() //uncomment to play sound on operation button presses
         
+        
         if currentOperation != Operation.Empty{
             
             if operation == Operation.Clear {
@@ -100,18 +101,20 @@ class CalculatorVC: UIViewController {
                 rightNum = runningNum
                 runningNum = ""
                 
-                if currentOperation == Operation.Add{
+                if operation == Operation.Add{
                     result = "\(Double(leftNum)! + Double(rightNum)!)"
-                }else if currentOperation == Operation.Subtract{
+                }else if operation == Operation.Subtract{
                     result = "\(Double(leftNum)! - Double(rightNum)!)"
-                }else if currentOperation == Operation.Multiply{
+                }else if operation == Operation.Multiply{
                     result="\(Double(leftNum)! * Double(rightNum)!)"
-                }else if currentOperation == Operation.Divide{
+                }else if operation == Operation.Divide{
                     result = "\(Double(leftNum)! / Double(rightNum)!)"
                 }
                 
                 leftNum=result
                 outputLabel.text=result
+                currentOperation = operation
+            } else {
                 currentOperation = operation
             }
             
