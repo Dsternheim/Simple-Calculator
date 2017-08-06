@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E257B9D535A0C22DCADFDEF69B5D8C34EB9F107F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E257B9D535A0C22DCADFDEF69B5D8C34EB9F107F" : 9223372036854775807,
+    "FCD2B13A26C480B7F82CCAF30FDBDF74FEFA91C1" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "81052EE0-793B-460A-BCE8-116B80927226",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E257B9D535A0C22DCADFDEF69B5D8C34EB9F107F" : "RetroCalc\/",
+    "FCD2B13A26C480B7F82CCAF30FDBDF74FEFA91C1" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RetroCalc",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RetroCalc.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Dsternheim\/Simple-Calculator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E257B9D535A0C22DCADFDEF69B5D8C34EB9F107F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Dsternheim\/First-App.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FCD2B13A26C480B7F82CCAF30FDBDF74FEFA91C1"
+    }
+  ]
+}
